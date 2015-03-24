@@ -1,7 +1,8 @@
 module Jquery
   module Toastmessage
     module Rails
-      VERSION = "0.0.1"
+      VERSION = "1.0.0"
+      JQUERY_TOASTMESSAGE_PLUGIN_VERSION = "0.2.0"
     end
   end
 end

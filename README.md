@@ -1,6 +1,6 @@
-# Jquery::Toastmessage::Rails
+# jquery-toastmessage-rails
 
-TODO: Write a gem description
+Package [jquery-toastmessage-plugin](http://akquinet.github.io/jquery-toastmessage-plugin/) for the Rails asset pipeline.
 
 ## Installation
 
@@ -20,7 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Require jquery-toastmessage-plugin in our application.js:
+
+```javascript
+//= require jquery.toastmessage 
+```
+
+Also require jquery-toastmessage-plugin stylesheets in out application.css:
+
+```css
+/*
+ *= require jquery.toastmessage
+ */
+```
+
+## Release
+
+See [VERSIONS.md](VERSIONS.md) for details.
 
 ## Contributing
 
