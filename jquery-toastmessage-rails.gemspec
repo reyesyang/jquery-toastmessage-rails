@@ -6,7 +6,7 @@ require 'jquery/toastmessage/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "jquery-toastmessage-rails"
   spec.version       = Jquery::Toastmessage::Rails::VERSION
-  spec.authors       = ["Reyes Yang\n"]
+  spec.authors       = ["Reyes Yang"]
   spec.email         = ["reyes.yang@gmail.com"]
   spec.summary       = %q{jQuery Toastmessage Plugin packaged for the Rails asset pipeline}
   spec.description   = %q{jQuery Toastmessage Plugin's JavaScript, Stylesheet and images packaged for Rails asset pipeline}
