@@ -20,6 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
+If your gem version < 1.1.0, Please reference [1.0.2's README.md](https://github.com/reyesyang/jquery-toastmessage-rails/blob/v1.0.2/README.md)
+
 Require jquery-toastmessage-plugin in our application.js:
 
 ```javascript
@@ -33,21 +35,6 @@ Also require jquery-toastmessage-plugin stylesheets in out application.css:
  *= require jquery.toastmessage
  */
 ```
-
-Add images to Rails assets precompile configuration.
-
-For Rails 4.1+, add the following line to update config/assets.rb:
-
-```ruby
-Rails.application.config.assets.precompile += /jquery\-toastmessage\/.+\.(?:gif|png)$/
-```
-
-For Rails 3.1+, add the following line to config/application.rb:
-
-```ruby
-config.assets.precompile += /jquery\-toastmessage\/.+\.(?:gif|png)$/
-```
-
 ## Release
 
 See [VERSIONS.md](VERSIONS.md) for details.
