@@ -34,6 +34,20 @@ Also require jquery-toastmessage-plugin stylesheets in out application.css:
  */
 ```
 
+Add images to Rails assets precompile configuration.
+
+For Rails 4.1+, add the following line to update config/assets.rb:
+
+```ruby
+Rails.application.config.assets.precompile += /jquery\-toastmessage\/.+\.(?:gif|png)$/
+```
+
+For Rails 3.1+, add the following line to config/application.rb:
+
+```ruby
+config.assets.precompile += /jquery\-toastmessage\/.+\.(?:gif|png)$/
+```
+
 ## Release
 
 See [VERSIONS.md](VERSIONS.md) for details.
